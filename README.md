@@ -1,3 +1,26 @@
+# Entry-Level Java Challenge
+
+Implementation of a complete Spring Boot REST API for managing employees, including:
+- `EmployeeImpl` model implementation
+- Mock `EmployeeService` layer
+- Fully functional `EmployeeController`
+- Comprehensive **JUnit 5** test suite (16 controller tests)
+
+## Technologies
+- Java 17
+- Spring Boot
+- JUnit 5
+- Mockito
+- MockMvc
+
+## Features
+- `GET /api/v1/employee` → Fetch all employees  
+- `GET /api/v1/employee/{uuid}` → Fetch employee by UUID  
+- `POST /api/v1/employee` → Create a new employee (with validation)
+
+All service logic is mocked; no persistence layer required.
+
+--------- 
 # ReliaQuest's Entry-Level Java Challenge
 
 Please keep the following in mind while working on this challenge:
@@ -52,3 +75,6 @@ To format code according to style guidelines, you can run **spotlessApply** task
 
 The spotless plugin will also execute check-and-validation tasks as part of the gradle **build** task.
 `./gradlew build`
+
+
+
